@@ -18,67 +18,61 @@ cd library-svelte-app
 npm install
 ```
 
-...then start [Rollup](https://rollupjs.org):
+...A continuacion inicie el paquete administrativo [Rollup](https://rollupjs.org):
 
 ```bash
 npm run dev
 ```
+Navege a la dirreccion  [localhost:5000](http://localhost:5000).Deberías ver tu aplicación ejecutándose. Edite un archivo de componente en `src`, guárdelo y vuelva a cargar la página para ver sus cambios.
 
-Navigate to [localhost:5000](http://localhost:5000). You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
-
-By default, the server will only respond to requests from localhost. To allow connections from other computers, edit the `sirv` commands in package.json to include the option `--host 0.0.0.0`.
+De forma predeterminada, el servidor solo responderá a las solicitudes de localhost. Para permitir conexiones desde otras computadoras, edite los comandos `sirv` en package.json para incluir la opción `--host 0.0.0.0`.
 
 
-## Building and running in production mode
+## Construir y ejecutar en modo de producción
 
-To create an optimised version of the app:
-
+Para crear una versión optimizada de la aplicación:
+Comandos para llevarlo acabo a continuacion:
 ```bash
 npm run build
 ```
 
-You can run the newly built app with `npm run start`. This uses [sirv](https://github.com/lukeed/sirv), which is included in your package.json's `dependencies` so that the app will work when you deploy to platforms like [Heroku](https://heroku.com).
+Puede ejecutar la aplicación recién creada con `npm run start`. Esto usa [sirv](https://github.com/lukeed/sirv), que está incluido en las `dependencias` de tu paquete.json para que la aplicación funcione cuando la implementes en plataformas como [Heroku](https:// heroku.com).
 
+## Modo de aplicación de una sola página
+Por defecto, sirv solo responderá a las solicitudes que coincidan con los archivos en `público`. Esto es para maximizar la compatibilidad con servidores de archivos estáticos, lo que le permite implementar su aplicación en cualquier lugar.
 
-## Single-page app mode
-
-By default, sirv will only respond to requests that match files in `public`. This is to maximise compatibility with static fileservers, allowing you to deploy your app anywhere.
-
-If you're building a single-page app (SPA) with multiple routes, sirv needs to be able to respond to requests for *any* path. You can make it so by editing the `"start"` command in package.json:
+Si está creando una aplicación de una sola página (SPA) con varias rutas, sirv debe poder responder a las solicitudes de *cualquier* ruta. Puede hacerlo editando el comando `"start"` en package.json:
 
 ```js
 "start": "sirv public --single"
 ```
 
 
-## Deploying to the web
+## Implementación en la web
 
-### With [now](https://zeit.co/now)
+### Con [now](https://zeit.co/now)
 
-Install `now` if you haven't already:
-
+Instala `now` si aún no lo has hecho:
 ```bash
 npm install -g now
 ```
-
-Then, from within your project folder:
+Luego, desde dentro de la carpeta de su proyecto:
 
 ```bash
 cd public
 now deploy --name my-project
 ```
 
-As an alternative, use the [Now desktop client](https://zeit.co/download) and simply drag the unzipped project folder to the taskbar icon.
+Como alternativa, utilice el [Now desktop client](https://zeit.co/download) y simplemente arrastre la carpeta del proyecto descomprimida al icono de la barra de tareas.
 
-### With [surge](https://surge.sh/)
+### con [surge](https://surge.sh/)
 
-Install `surge` if you haven't already:
+Instale `surge` si aún no lo has hecho:
 
 ```bash
 npm install -g surge
 ```
-
-Then, from within your project folder:
+Luego, desde dentro de la carpeta de su proyecto:
 
 ```bash
 npm run build
