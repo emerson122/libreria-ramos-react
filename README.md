@@ -1,15 +1,18 @@
 ![svelte library app](https://user-images.githubusercontent.com/13697123/82756260-c1339c00-9d9e-11ea-87e0-fe4c3cd33777.PNG)
 
-# Svelte library app
+# Aplicación de biblioteca Svelte
 
 Este es un proyecto simple de una aplicación de biblioteca donde puede almacenar libros en una base de datos falsa local (db.json), en general, aprendí conceptos básicos de componentes esbeltos, interfaces de usuario de interactividad y vincular datos de formularios. Este proyecto es parte del aprendizaje con fines educativos
 
 ![svelte library app responsive](https://user-images.githubusercontent.com/13697123/82756905-9fd4af00-9da2-11ea-9dc5-35cf66e4c851.PNG)
 
-## Get started
 
-Install the dependencies...
+## Empezamos con la Instalacion de Dependencias
 
+En la terminal  debemos ingresar a la carpeta y ejecutar el comando para instalar todas las dependencias para que el sistema funcione
+
+
+Comandos para llevarlo acabo acontinuacion:
 ```bash
 cd library-svelte-app
 npm install
