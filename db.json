@@ -1,0 +1,49 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Little Women",
+      "author": "Louisa May Alcott",
+      "cover": "",
+      "about": "Las hermanas aprenden a vivir en gratitud el uno por el otro.",
+      "variation": 0,
+      "favorite": false
+    },
+    {
+      "id": 2,
+      "title": "Fahrenheit 451",
+      "author": "Ray Bradbury",
+      "cover": "",
+      "about": "Entra en un futuro distópico donde los libros con ideas son peligrosos, controlados y quemados.",
+      "variation": 1,
+      "favorite": true
+    },
+    {
+      "id": 3,
+      "title": "Grapes of Wrath",
+      "author": "John Steinbeck",
+      "cover": "",
+      "about": "Miles de personas partieron del cuenco de polvo a California en busca de mejores fortunas.",
+      "variation": 2,
+      "favorite": false
+    },
+    {
+      "id": 4,
+      "title": "To Kill a Mocking Bird",
+      "author": "Harper Lee",
+      "cover": "https://i.imgur.com/BPmn7bUm.jpg",
+      "about": "Una niña aprende a confiar en la sabiduría de su padre y no dejarse consternar por el prejuicio por aquí.",
+      "variation": 0,
+      "favorite": true
+    },
+    {
+      "id": 5,
+      "title": "Moby Dick",
+      "author": "Hermann Melville",
+      "cover": "",
+      "about": "El hombre caza ballenas con una venganza. Al final, él es el último hombre en pie. Supongo que ganó.",
+      "variation": 1,
+      "favorite": false
+    }
+  ]
+}
