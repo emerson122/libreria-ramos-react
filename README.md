@@ -2,7 +2,7 @@
 
 # Svelte library app
 
-This is a simple project of an library app where you can persist books into a local fake database(db.json), in general i learned basic concepts of svelte components, interactivity uis and bind forms data. This project is part of the Pluralsight platform course entitled "Svelte getting started"
+Este es un proyecto simple de una aplicación de biblioteca donde puede almacenar libros en una base de datos falsa local (db.json), en general, aprendí conceptos básicos de componentes esbeltos, interfaces de usuario de interactividad y vincular datos de formularios. Este proyecto es parte del aprendizaje con fines educativos
 
 ![svelte library app responsive](https://user-images.githubusercontent.com/13697123/82756905-9fd4af00-9da2-11ea-9dc5-35cf66e4c851.PNG)
 
